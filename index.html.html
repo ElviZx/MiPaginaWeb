@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Completa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+        <p>Un sitio con todos los elementos solicitados</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#tabla">Tabla</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Sobre esta página</h2>
+            <article>
+                <h3>Propósito</h3>
+                <p>Esta página demuestra el uso de <strong>diversos elementos HTML</strong> junto con <em>estilos CSS personalizados</em>.</p>
+                <p>Incluye todo lo solicitado: encabezados, texto formateado, etiquetas semánticas, multimedia, listas, enlaces, tablas y formularios.</p>
+            </article>
+        </section>
+
+        <section id="multimedia">
+            <h2>Contenido Multimedia</h2>
+            
+            <article>
+                <h3>Imagen</h3>
+                <img src="https://raw.githubusercontent.com/tu-usuario/tu-repositorio/main/images/ejemplo.jpg" alt="Imagen de ejemplo" width="400">
+                <p>Esta imagen se carga desde el repositorio de GitHub.</p>
+            </article>
+            
+            <article>
+                <h3>Video</h3>
+                <video controls width="400">
+                    <source src="videos/ejemplo.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </article>
+        </section>
+
+        <section id="listas">
+            <h2>Listas</h2>
+            
+            <article>
+                <h3>Lista Ordenada</h3>
+                <ol>
+                    <li>Primer elemento</li>
+                    <li>Segundo elemento</li>
+                    <li>Tercer elemento</li>
+                </ol>
+            </article>
+            
+            <article>
+                <h3>Lista Desordenada</h3>
+                <ul>
+                    <li>Elemento A</li>
+                    <li>Elemento B</li>
+                    <li>Elemento C</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="enlaces">
+            <h2>Enlaces</h2>
+            <p>Visita <a href="https://github.com" target="_blank">GitHub</a> para más proyectos como este.</p>
+        </section>
+
+        <section id="tabla">
+            <h2>Tabla de Ejemplo</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Lenguaje de marcado para estructurar contenido web</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Lenguaje para estilizar páginas web</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Lenguaje de programación para interactividad web</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="formulario">
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
